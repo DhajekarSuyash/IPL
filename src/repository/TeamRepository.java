@@ -13,9 +13,22 @@ public class TeamRepository {
 		team.setCoachName("Jaywardhan");
 		team.setQualified(false);
 		team.setnRR(2.3f);
+		team.setShortName("MI");
 		return team;
 	}
 	
-	// add similar methods for remaining 9 teams
+	public static Team getRCBTeamDetails() {
+		Team team = new Team();
+		team.setId(102);
+		team.setTeamName("Royal Challenge Banglore");
+		team.setCaptainName("Virat Kohli");
+		team.setCoachName("abc");
+		team.setQualified(false);
+		team.setnRR(4.3f);
+		team.setShortName("RCB");
+		return team;
+	}
+	
+	// add similar methods for remaining 8 teams
 
 }
